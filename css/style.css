@@ -1,0 +1,118 @@
+/********************************typrography start*******************************/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+  body{
+    font-family: sans-serif,Arial;
+    padding: 130px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  ul,li{
+    list-style-type: none;
+  }
+/********************************typrography end*******************************/
+
+
+/* login area css start */
+
+#login-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#login-area h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#login-area .login-form{
+    width: 40%;
+    padding: 50px 45px;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 10px;
+
+}
+
+
+.login-form h4{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.login-btn{
+    padding: 5px 20px;
+}
+ 
+/* login area css end ########*/
+
+
+
+/* transaction-area  start*/
+
+
+#transaction-area{
+  display: none;
+}
+
+.status{
+  margin: 0 35px;
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.deposit{
+  background-color: slateblue;
+}
+
+.withdraw{
+background-color: lightsalmon;
+}
+
+.balence{
+  background-color: orange;
+
+}
+
+.status h5{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.status h2{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.calculation{
+  margin: 0 auto;
+  padding: 50px 45px;
+  box-shadow: 2px 2px 20px grey;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.calculation h4{
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+/* transaction-area end */
